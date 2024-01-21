@@ -1,4 +1,4 @@
-name: Continuous Integration and Deployment
+name: Continuous Integration
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20.9.0'
+           node-version: '20.9.0'
 
       - name: Install Dependencies
         run: npm install
@@ -27,6 +27,8 @@ jobs:
 
       - name: Run format check
         run: npm run format
+      
+
 
   deploy:
     runs-on: ubuntu-latest
