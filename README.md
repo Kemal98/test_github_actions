@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+In this tutorial, you'll find comprehensive guidance on setting up a robust CI/CD pipeline for your Next.js 14 project. The emphasis is on leveraging GitHub Actions, with a specific focus on integrating Eslint, Prettier, and Husky, followed by seamless deployment to the Heroku platform.
 
-## Getting Started
+GitHub Actions Configuration:
+Learn how to efficiently automate your Next.js workflows using GitHub Actions, ensuring a streamlined development process.
 
-First, run the development server:
+Eslint and Prettier Integration:
+Dive into the installation and configuration of Eslint and Prettier to enhance code quality and maintain consistent formatting in your Next.js project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Husky Pre-commit Hooks:
+Uncover the power of Husky as it enforces Eslint and Prettier checks before each commit, preserving code integrity throughout the entire development cycle.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Heroku Deployment:
+Follow a step-by-step walkthrough for deploying your Next.js application on Heroku, ensuring it is live and fully operational.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This tutorial is crafted to optimize your Next.js development, addressing everything from code quality checks to automated deployments. Enhance your development process, making it more efficient and error-free with the empowering capabilities of CI/C
